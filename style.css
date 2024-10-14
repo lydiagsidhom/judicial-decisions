@@ -1,0 +1,54 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 20px;
+    color: #000;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1em;
+}
+
+header a {
+    color: #000;
+    text-decoration: none;
+}
+
+section h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+p {
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border: 4px double black; /* Double border for the entire table */
+}
+
+th, td {
+    border: 3px double black; /* Double border for all table cells */
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    width: 20%;
+    font-weight: normal; /* Unbold the text in the left column */
+}
