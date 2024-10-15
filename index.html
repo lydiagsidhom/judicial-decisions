@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicting Judicial Decisions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Predicting Judicial Decisions</h1>
+        <p>Authors: Lydia Sidhom (lydiasidhom@berkeley.edu), Vyoma Raman, Jonathan Marshall<br>
+    </header>
+    
+
+    <section class="overview">
+        <h2>Overview</h2>
+        <p>
+            This assignment walks students through creating a model that predicts judge decisions at pretrial arraignments.
+            <br>
+            <br>
+            Students learn how to:
+            <li>Follow the roadmap of the Data Science Lifecycle while reflecting on ethical considerations.</li>
+            <li>Clean messy publicly available data and document their process clearly.</li>
+            <li>Apply and rationalize different predictive modeling techniques for a given dataset.</li>
+            <li>Evaluate the relative performance of different models and justify the selection of a particular model.</li>
+            <li>Compare models against an external benchmark and contextualize results.</li>
+            <br>
+            The problem set is currently being used in the undergraduate UC Berkeley course Legal Studies 123: Data, Prediction, and Law, an interdisciplinary data science class that primarily uses Python. It is adaptable to non-domain specific data science or computer science courses due to its focus on the modeling process.
+
+        </p>
+    </section>
+
+    <section class="metadata">
+        <h2>Metadata</h2>
+        <table>
+            <tr>
+                <th>Summary</th>
+                <td>This assignment asks students to predict judicial decisions at the arraignment stage of criminal cases, using real-world data from the U.S. criminal justice system.</td>
+            </tr>
+            <tr>
+                <th>Topics</th>
+                <td>The assignment focuses on teaching students how to clean and manipulate real-world datasets and create models that identify key factors influencing judicial decision-making. Some of the data science concepts covered include data cleaning, feature engineering, model selection, and evaluation. It is structured around the Data Science Lifecycle, with discussion questions integrated throughout to prompt students to consider the ethical implications of their models.</td>
+            </tr>
+            <tr>
+                <th>Audience</th>
+                <td>The assignment is designed primarily for social science students (especially those majoring in political science and legal studies) who have taken at least one prior introductory data science course. It is also well suited for students in technical fields like computer science, electrical engineering, and data science who wish to delve deeper into concepts in responsible computing.</td>
+            </tr>
+            <tr>
+                <th>Difficulty</th>
+                <td>Since it uses a real-world dataset, students have found the assignment moderately challenging. For example, they need to make decisions about how to interpret missing values, which can carry different meanings (e.g., a missing value for prior convictions might represent zero prior convictions, while a missing value for race might indicate that the defendant’s race is unknown). Additionally, students must apply legal domain knowledge to avoid data leakage when selecting features. The assignment is also fairly long and has taken students on average between 6 to 10 hours to complete.</td>
+            </tr>
+            <tr>
+                <th>Strengths</th>
+                <td>
+                    <ul>
+                        <li><i>Adaptable and scalable:</i> The assignment can be easily modified to suit different datasets or focus on different aspects of the data science process.</li>
+                        <li><i>Socially relevant:</i> It uses real-world criminal justice data, helping students get hands-on experience of data science in a social science/ sociolegal context. While the bail reform law the assignment was inspired by was passed in 2020, its questions remain pertinent and urgent within criminal justice.</li>
+                        <li><i>Interdisciplinary:</i> It attracts students from both social science and technical backgrounds, fostering collaboration.</li>
+                        <li><i>Ethics-centered:</i> Ethical considerations are integrated, encouraging students to critically assess the implications of their models.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Weaknesses</th>
+                <td>
+                    <ul>
+                        <li>Students must have some prior knowledge of the U.S. criminal justice system, which may not be familiar to everyone in a data science course.</li>
+                        <li>Some may find it difficult to handle the complexities of real-world data without prior data science coursework.</li>
+                        <li>The assignment requires a significant time commitment.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Dependencies</th>
+                <td>The assignment is hosted on Jupyter Notebooks and provided as a template notebook, with discussion questions and starter coding prompts. Students code in Python and use the Scikit-learn, Plotly, NumPy, and Pandas libraries.</td>
+            </tr>
+            <tr>
+                <th>Variants</th>
+                <td>The assignment can be adapted to predict a different, less common outcome (i.e., whether a defendant will be remanded to jail). It is currently being adapted for an introductory CS course at another university, where focus is placed on ethics discussion questions and explanations of their relation to technical concepts, wherein most of the code has already been written for students.</td>
+            </tr>
+            <tr>
+                <th>Teaching Notes</th>
+                <td>
+                    <ul>
+                        <li>Provide some class time for students to work collaboratively, as this improves engagement and understanding. Allowing students to discuss main ideas and approaches together, while still maintaining individual submissions, has proven to be effective.</li>
+                        <li>Offer guiding hints on common pitfalls, such as feature selection and one-hot encoding.</li>
+                        <li>Ensure students are familiar with the tools (e.g., Jupyter Notebooks) by including a preliminary lab assignment.</li>
+                        <li>Allow at least two weeks for completion, as the complexity of the dataset and ethical questions require substantial thought.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </section>    
+
+    <section class="materials">
+        <h2>Materials</h2>
+        <p>
+            <li> <a href="https://lydiagsidhom.github.io/judicial-decisions/judicial_decisions_template.ipynb">Notebook template for students (.ipynb)</a></a></li>
+            <li> <a href="https://lydiagsidhom.github.io/judicial-decisions/judicial_decisions_solutions_rubric.ipynb">Notebook solutions/rubric for instructors (.ipynb)</a></a></li>
+            <li>
+                Assignment handout for students 
+                (<a href="https://raw.githubusercontent.com/lydiagsidhom/judicial-decisions/main/judicial-decisions-handout.pdf" download>.pdf</a>)
+                and 
+                (<a href="https://raw.githubusercontent.com/lydiagsidhom/judicial-decisions/main/judicial-decisions-handout.docx" download>.docx</a>).
+            </li>
+        </p>
+    </section>
+</body>
+</html>
